@@ -63,6 +63,7 @@ Ou utilise l'orchestrateur :
 | **Test** | 🧪 | qa-engineer | Valider la qualité |
 | **Launch** | 🚀 | deployer, gtm-strategist | Mettre en production |
 | **Feedback** | 🔄 | feedback-collector | Itérer sur les retours |
+| **Learning** | 🌱 | knowledge-curator | Faire évoluer le framework |
 
 ## Projets utilisant Cortex
 

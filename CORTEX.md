@@ -91,6 +91,9 @@ CYCLE DE VIE PRODUIT
 🧪 TEST               🚀 LAUNCH             🔄 FEEDBACK
 ├─ qa-engineer         ├─ deployer            ├─ feedback-collector
 │                      └─ gtm-strategist      └─ iteration-planner
+│
+🌱 LEARNING (Meta)
+└─ knowledge-curator
 ```
 
 ### 3. Guider l'exécution
