@@ -139,6 +139,7 @@ Quand tu orchestres, structure ta réponse ainsi :
 **Projet** : {nom du projet}
 **Phase actuelle** : {phase}
 **Agent(s) recommandé(s)** : {liste}
+**Conseil IA** : {Modèle recommandé} (via `resource-advisor`)
 
 ### Prochaine étape
 {Description de ce que l'agent va faire}
