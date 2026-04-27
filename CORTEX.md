@@ -1,6 +1,6 @@
 ---
 name: cortex
-version: 1.1.0
+version: 1.1.4
 description: >
   Orchestrateur principal du système Cortex.
   Point d'entrée pour toute interaction avec les agents.
@@ -91,8 +91,14 @@ CYCLE DE VIE PRODUIT
 ├─ qa-engineer         ├─ deployer            ├─ feedback-collector
 │                      └─ gtm-strategist      └─ iteration-planner
 │
+💼 CORPORATE (Business)
+├─ comms-strategist
+├─ slide-architect
+└─ strategic-planner
+
 🌱 LEARNING (Meta)
-└─ knowledge-curator
+├─ knowledge-curator
+└─ opportunist
 ```
 
 ### 3. Guider l'exécution

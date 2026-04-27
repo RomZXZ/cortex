@@ -1,6 +1,6 @@
 ---
 name: github-manager
-version: 1.0.0
+version: 1.0.1
 phase: meta
 type: component
 description: >
@@ -70,6 +70,12 @@ Quand Romain demande de créer une PR :
 ### 4. Automatisation via MCP GitHub
 - Utilise l'outil `push_files` pour les commits groupés.
 - Utilise `create_pull_request` pour formaliser la fin d'une tâche.
+
+### 5. Workflow Beta & Preview (Proactivité)
+Pour toute action proactive lancée par Jules ou l'Opportuniste :
+1. **Branche** : Utiliser le préfixe `beta/proactive-{name}`.
+2. **Preview** : S'assurer que le déploiement génère une URL de Preview unique.
+3. **Validation Humaine** : Ne jamais merger une branche `beta/` sans le feedback explicite de Romain après son test "live".
 
 ## Ce que cet agent NE FAIT PAS
 
