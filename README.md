@@ -19,8 +19,7 @@ cortex/
 ├── CORTEX.md                    # 🧠 Orchestrateur — point d'entrée
 ├── meta/                        # Conventions et guides
 │   ├── conventions.md
-│   ├── integration-guide.md
-│   └── crewai-evolution.md
+│   └── integration-guide.md
 ├── agents/                      # Agents spécialisés par phase
 │   ├── discovery/               # 🔍 Recherche & compréhension
 │   ├── solutioning/             # 💡 Conception de la solution

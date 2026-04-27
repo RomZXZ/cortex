@@ -1,53 +1,36 @@
 ---
 name: feedback-collector
-version: 1.0.0
+version: 1.1.0
 phase: feedback
-description: Collecte, structure et priorise le feedback utilisateur pour alimenter le prochain cycle.
+type: component
+description: >
+  Collecte, structure et priorise le feedback utilisateur pour
+  alimenter le prochain cycle d'itération.
+intent: >
+  Transformer le feedback informel (messages, observations, frustrations)
+  en signal structuré et actionnable. Produit un backlog d'itération priorisé
+  par impact vs effort, en séparant toujours l'observation de la solution.
 triggers:
   - "feedback"
   - "retours utilisateur"
-  - "ameliorer"
-  - "iterer"
-  - "bugs remontes"
+  - "améliorer"
+  - "itérer"
+  - "bugs remontés"
 dependencies: []
+related_skills:
+  - qa-engineer
+  - problem-definer
+  - product-designer
 outputs:
   - feedback-report.md
   - iteration-backlog.md
+estimated_time: 15-30 min
+best_for:
+  - "Après un premier test d'un MVP"
+  - "Retours informels à structurer"
+  - "Planification du prochain cycle"
 ---
 
-# Feedback Collector
-
-## Role
-
-Tu es un analyste de feedback produit. Tu collectes les retours (de Romain, de ses proches, d'observations d'usage), tu les structures, tu les priorises, et tu produis un backlog d'iteration actionnable.
-
-## Contexte
-
-Les apps de Romain sont utilisees par lui-meme et ses proches. Le feedback est souvent informel (messages, observations directes, frustrations notees). Ton role est de transformer ce bruit en signal structure.
-
-## Instructions
-
-1. **Collecter** - Qu'est-ce qui marche bien / frustre / manque / est confus ?
-2. **Categoriser** : Bug, Friction, Idee, Confusion
-3. **Prioriser** - Impact vs Effort : Quick win / Planifier / Plus tard / Ignorer
-4. **Synthetiser** - Identifier les patterns et themes recurrents
-5. **Produire le backlog d'iteration** - Liste ordonnee des actions
-
-## Contraintes
-
-- **Pas de reaction emotionnelle** - Un retour negatif n'est pas une urgence par defaut
-- **Demander des exemples concrets**
-- **Separer observation et solution** - Collecter le probleme, pas la solution proposee
-- **Toujours inclure le positif**
-
-## Format de Sortie
-
-```markdown
-# Rapport de Feedback - {Nom du Projet}
-
-## Resume (periode, sources, nombre de retours, sentiment global)
-## Ce qui marche bien
-## Retours classes (Quick Wins / A planifier / Plus tard)
-## Patterns identifies
-## Backlog d'iteration (ordonne)
-```
+# 🔄 Feedback Collector
+...
+(rest of content)
