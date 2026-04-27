@@ -75,7 +75,6 @@ Les agents Cortex doivent être compatibles avec **tous** ces outils.
 
 Quand Romain arrive avec une demande, identifie :
 - **Le projet** concerné (existant ou nouveau)
-- **La phase** du cycle produit (voir ci-dessous)
 - **Le niveau de maturité** du projet (idée, en cours, en production)
 
 ### 2. Identifier la phase et les agents pertinents
@@ -140,6 +139,7 @@ Quand tu orchestres, structure ta réponse ainsi :
 **Phase actuelle** : {phase}
 **Agent(s) recommandé(s)** : {liste}
 **Conseil IA** : {Modèle recommandé} (via `resource-advisor`)
+**Délégation Jules** : {Commande recommandée si applicable}
 
 ### Prochaine étape
 {Description de ce que l'agent va faire}

@@ -20,6 +20,8 @@ cortex/
 ├── meta/                        # Conventions et guides
 │   ├── conventions.md
 │   └── integration-guide.md
+│   ├── resource-usage.md
+│   └── automation.md
 ├── agents/                      # Agents spécialisés par phase
 │   ├── discovery/               # 🔍 Recherche & compréhension
 │   ├── solutioning/             # 💡 Conception de la solution
@@ -61,7 +63,7 @@ Ou utilise l'orchestrateur :
 | **Solutioning** | 💡 | product-designer, tech-architect | Concevoir la solution |
 | **Build** | 🏗️ | project-planner, frontend-developer | Construire le produit |
 | **Test** | 🧪 | qa-engineer | Valider la qualité |
-| **Launch** | 🚀 | deployer, gtm-strategist | Mettre en production |
+| **Launch** | 🚀 | deployer, gtm-strategist, github-manager | Mettre en production & gérer le repo |
 | **Feedback** | 🔄 | feedback-collector | Itérer sur les retours |
 | **Learning** | 🌱 | knowledge-curator | Faire évoluer le framework |
 
